@@ -56,3 +56,9 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem 'rails-controller-testing'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 5.0.0'
+end
