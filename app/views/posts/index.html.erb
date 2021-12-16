@@ -1,2 +1,8 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<%= render partial: "users/user_card", object: @user, as: 'user' %>
+<% @posts.each do |post| %>
+<a href="/users/<%= post.author_id %>/posts/<%= post.id %>" ><%= render partial: "post_card", object: post, as: 'post' %></a>
+<% post.comments.each do |comment| %>
+<%= render partial: "comment_card", object: comment, as: 'comment' %>
+<% end %>
+<% end %>
+<button> Pagination </button>
