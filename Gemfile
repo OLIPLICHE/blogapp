@@ -59,6 +59,8 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'rails-controller-testing'
 
+gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
 group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
 end
