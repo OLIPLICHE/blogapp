@@ -9,12 +9,12 @@
 </div>
 </div>
 <%  @posts.each  do |post| %>
-<%= render partial: "posts/post_card", object: post, as: 'post' %>
+<%= render partial: "recent_post/post_card", object: post, as: 'recent_post' %>
 <% end %>
 <div class="container">
 <div class="row">
 <div class="col text-center">
-<a href="<%= @user.id %>/posts" class="btn btn-primary">See all posts</a>
+<a href="<%= @user.id %>/posts" class="btn btn-primary">See recent posts</a>
 </div>
 </div>
 </div>
