@@ -1,5 +1,5 @@
 # blog-app
-The Blog app is a classic example of a blog website. I create a fully functional website that shows the list of posts and empower readers to interact with them by adding comments and liking posts.
+The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking posts.
 
 ## Getting Started
  Go ahead and check the most recent version of each of this in the code editor:
