@@ -15,11 +15,11 @@ class CommentsController < ApplicationController
     else
       render :new
     end
-   end
+  end
 
-   private
+  private
 
-   def comment_params
-     params.permit(:text)
-   end
+  def comment_params
+    params.permit(:text)
+  end
 end
