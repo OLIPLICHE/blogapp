@@ -1,0 +1,16 @@
+<div class="container text-center">
+<%= csrf_meta_tags %>
+<form action="/users/<%=params[:user_id]%>/posts/<%=params[:id]%>/comments" method="POST">
+<div class="form-group  p-2">
+<label class="post-description">Type your comment</label><br>
+<textarea class="form-control" name="text"></textarea>
+</div>
+<div class="container">
+<div class="row">
+<div class="col text-center">
+<button class="btn btn-primary" type="submit">Submit</button>
+</div>
+</div>
+</div>
+</form>
+</div>
