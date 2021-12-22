@@ -83,6 +83,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-color: #eeeff3;
+  padding-left: 34px;
 }
 
 hr {
