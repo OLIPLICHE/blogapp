@@ -61,6 +61,8 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'rails-controller-testing'
 
+gem 'cancancan', '~> 1.9'
+
 # gem 'better_errors', '~> 2.9', '>= 2.9.1'
 
 group :development do
